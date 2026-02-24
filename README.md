@@ -32,8 +32,23 @@ This project was mainly about pushing myself to go beyond simple prototypes and 
 
 <img width="919" height="344" alt="image" src="https://github.com/user-attachments/assets/e291a2e9-2dc2-4819-b97f-2a64473c53ae" />
 
-## A full BOM.csv file is available in the repository further called as "BOM.csv"
+## A full BOM.csv file is available in the repository further called as "BOM.csv"\
 
+## Bill of Materials (BOM)
 
+Full detailed BOM file: [BOM.csv](BOM.csv)
 
-
+| Reference | Qty | Value / Part | Description | Purchase Link |
+|------------|-----|--------------|--------------|---------------|
+| C1, C4 | 2 | 10µF | Capacitor | https://in.element14.com/yageo/cc0805kkx7r7bb106/cap-10uf-16v-mlcc-0805/dp/3873445  |
+| C2, C3 | 2 | 0.1µF | Capacitor | https://in.element14.com/multicomp-pro/mc0805b104k160ct/cap-0-1-f-16v-10-x7r-0805/dp/1759143  |
+| J1 | 1 | USB_C_Receptacle_USB2.0_14P | USB Type-C Connector | https://in.element14.com/gct-global-connector-technology/usb4085-gf-a/usb-conn-2-0-type-c-r-a-rcpt-16pos/dp/2924867 |
+| LS1 | 1 | Speaker | Speaker | https://in.element14.com/pui-audio/as04004pr-r/speaker-100hz-20khz-4ohm-86dba/dp/4412328  |
+| MK1 | 1 | Microphone | Microphone | https://in.element14.com/multicomp-pro/abm-713-rc/electret-microphone-omni-pcb-pins/dp/2066499  |
+| R1, R2 | 2 | Resistor | Resistor | https://in.element14.com/vishay/crcw060313k0fkea/res-13k-1-0-1w-0603-thick-film/dp/1652839 |
+| SW1, SW2 | 3 | SW_Push | Push Button | https://in.element14.com/c-k-components/pts636-sm50-lfs/tactile-switch-0-05a-12vdc-180gf/dp/3780607  |
+| U1 | 1 | ESP32-S3-WROOM-1 | Microcontroller Module | https://in.element14.com/dfrobot/dfr0975/dev-board-xtensa-lx7-wi-fi-bluetooth/dp/4733231 |
+| U2 | 1 | EA_eDIPTFT32-A | TFT Display | https://robu.in/product/smartelex-3-2-tft-display-240x320/  |
+| U3 | 1 | MAX9814 | Microphone Amplifier | https://in.element14.com/analog-devices/max9814etd-t/audio-amplifier-2-7v-to-5-5-tdfn/dp/2519088RL |
+| U4 | 1 | MAX98357A | Audio Amplifier | https://in.element14.com/analog-devices/max98357aete-t/audio-power-amp-d-40-to-85deg/dp/2949165RL |
+| U5 | 1 | AMS1117-3.3 | 3.3V Voltage Regulator | https://robu.in/product/ams1117-3-3v-1a-sot-223-voltage-regulator-ic-pack-of-5-ics/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWf1oom3zs2LMsp4jrXyl_zPl&gclid=EAIaIQobChMIlfeNufTqkgMVKpmmAx3wOBgwEAQYASABEgLSTPD_BwE |
